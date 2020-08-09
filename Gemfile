@@ -13,7 +13,6 @@ gem 'sqlite3', platform: %i[ruby mswin mingw x64_mingw]
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw]
 
 group :development do
-  gem 'brakeman', require: false
   gem 'bundler-audit', require: false
   gem 'danger', require: false
   gem 'web-console'
